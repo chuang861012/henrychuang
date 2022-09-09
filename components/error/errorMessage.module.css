@@ -1,0 +1,24 @@
+.error {
+    color: var(--color-white);
+    min-height: 1000px;
+
+    position: relative;
+}
+
+.error section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error h1 {
+    font-size: 6rem;
+}
+
+.error h2 {
+    font-size: 4rem;
+}

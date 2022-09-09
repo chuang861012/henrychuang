@@ -1,0 +1,42 @@
+{
+  "name": "chuang-personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build",
+    "add-post": "mkdir $INIT_CWD/public/images/posts/$npm_config_slug && cp $INIT_CWD/templates/post.md $INIT_CWD/posts/$npm_config_slug.md",
+    "add-work": "mkdir $INIT_CWD/works/$npm_config_slug $INIT_CWD/public/images/works/$npm_config_slug && cp $INIT_CWD/templates/work.md $INIT_CWD/works/$npm_config_slug/en-US.md && cp $INIT_CWD/templates/work.md $INIT_CWD/works/$npm_config_slug/zh-TW.md",
+    "add-work-win": "mkdir %INIT_CWD%\\works\\%npm_config_slug% && mkdir %INIT_CWD%\\public\\images\\works\\%npm_config_slug% && cp %INIT_CWD%\\templates\\work.md %INIT_CWD%\\works\\%npm_config_slug%\\en-US.md && cp %INIT_CWD%\\templates\\work.md %INIT_CWD%\\works\\%npm_config_slug%\\zh-TW.md",
+    "add-post-win": "mkdir %INIT_CWD%\\public\\images\\posts\\%npm_config_slug% && cp %INIT_CWD%\\templates\\post.md %INIT_CWD%\\posts\\%npm_config_slug%.md"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.2",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.3.11",
+    "gray-matter": "^4.0.3",
+    "next": "12.1.6",
+    "next-i18next": "^11.0.0",
+    "next-sitemap": "^3.1.3",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "react-markdown": "^8.0.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-raw": "^6.1.1",
+    "remark-gfm": "^3.0.1",
+    "sharp": "^0.30.6"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.1.6",
+    "cross-env": "^7.0.3",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
+}

@@ -1,0 +1,9 @@
+.content {
+    width: 95%;
+    margin: auto;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    border-radius: 6px;
+    max-width: 1000px;
+    color: var(--color-white);
+}

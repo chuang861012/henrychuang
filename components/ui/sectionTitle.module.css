@@ -1,0 +1,30 @@
+.section_title {
+    margin-top: 0;
+    font-size: 5rem;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.separator {
+    border: 0;
+    height: 1px;
+    width: 20%;
+    position: relative;
+    margin: 30px auto;
+    background: var(--color-primary-100);
+}
+
+.separator:before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: var(--color-primary-100);
+    display: inline-block;
+    border: 2px solid var(--color-primary-100);
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    margin: 0 0 0 -3px;
+    transform: translateX(-2px);
+}

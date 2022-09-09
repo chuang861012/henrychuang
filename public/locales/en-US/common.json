@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "index": "Henry Chuang is a web developer, designer, and programmer from Taipei, Taiwan.",
+        "works": "My portfolio, includes website, system, program projects."
+    },
+    "language": {
+        "all": "All",
+        "zh": "Chinese",
+        "en": "English"
+    }
+}

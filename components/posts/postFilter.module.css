@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--color-white);
+    max-width: 55rem;
+    margin: auto;
+}
+
+.filter {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: inherit;
+
+    background-color: var(--color-grey-800);
+}
+
+.filter option {
+    background-color: var(--color-grey-800);
+}

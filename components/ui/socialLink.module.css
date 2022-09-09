@@ -1,0 +1,25 @@
+.link {
+    display: flex;
+    align-items: center;
+    transition: 0.1s all;
+}
+
+.link[data-backgroundcolor="var(--color-white)"]:hover {
+    background-color: var(--color-white);
+}
+
+.link[data-brand="github"]:hover {
+    color: #171515;
+}
+
+.link[data-brand="twitter"]:hover {
+    color: #1d9bf0;
+}
+
+.link[data-brand="linkedin"]:hover {
+    color: #0a66c2;
+}
+
+.link[data-brand="medium"]:hover {
+    color: #292929;
+}

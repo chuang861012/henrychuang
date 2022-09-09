@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color-white);
+    padding: 3rem 2rem;
+    background-color: #192125;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 1.5rem;
+}
+
+.copyright > a:hover {
+    color: var(--color-primary-100);
+}
+
+.attribute > a {
+    margin: 0 0.5rem;
+    font-weight: 100;
+}
+.attribute > a:hover {
+    color: var(--color-primary-100);
+}
