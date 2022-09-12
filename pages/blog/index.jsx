@@ -20,8 +20,7 @@ function PostsPage({ posts, locale }) {
         <Container>
             <HeadMeta
                 title="Blog | Henry Chuang"
-                //FIXME: meta data for blog
-                description={t("meta.works")}
+                description={t("meta.posts")}
                 domain={domain}
                 url={url}
                 image={ogImageUrl}

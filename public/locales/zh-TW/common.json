@@ -1,7 +1,8 @@
 {
     "meta": {
         "index": "來自台灣的 web developer, designer,  programmer.",
-        "works": "Henry Chuang 的作品集，包含網站、系統、程式專案"
+        "works": "Henry Chuang 的作品集，包含網站、系統、程式專案",
+        "posts": "Henry Chuang 的文字部落格，我會以中文或英文撰寫技術文章、心得分享、心情雜感"
     },
     "language": {
         "all": "全部",
