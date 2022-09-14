@@ -27,7 +27,7 @@ We provide hyperlinks from our website to other external websites. However, our 
 
 ## V. Use of Cookies
 
-To provide better service, our website will set and access cookies in your computer. If you are unwilling to accept the cookies, you may set the privacy protection level to “high” in your browser and refuse acceptance of cookies. But it may cause some functions of the website unable to be executed normally.
+To provide better service, our website may set and access cookies in your computer. If you are unwilling to accept the cookies, you may set the privacy protection level to “high” in your browser and refuse acceptance of cookies. But it may cause some functions of the website unable to be executed normally.
 
 ## VI. Google Fonts
 
