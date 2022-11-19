@@ -3,6 +3,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import Container from "../components/ui/Container";
 import SectionTitle from "../components/ui/SectionTitle";
+import AboutSection from "../components/about/AboutSection.jsx";
 import SkillsSection from "../components/about/SkillsSection";
 import HeadMeta from "../components/seo/HeadMeta";
 
@@ -22,6 +23,8 @@ function AboutPage() {
                 url={url}
                 image={ogImageUrl}
             />
+            <SectionTitle title="About me" />
+            <AboutSection welcome={t("welcome")} description={t("description")} />
             <SectionTitle title="Skills" />
             <SkillsSection />
         </Container>
