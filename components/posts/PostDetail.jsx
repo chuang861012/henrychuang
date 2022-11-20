@@ -1,3 +1,5 @@
+import { useTranslation } from "next-i18next";
+
 import PostHeader from "./PostHeader";
 import MarkdownRenderer from "../ui/MarkdownRenderer";
 
@@ -12,12 +14,14 @@ const getDateString = (date, locale) => {
 };
 
 function PostDetail({ post, locale }) {
+    const { t } = useTranslation();
+
     return (
         <article className={classes.content}>
             <PostHeader
                 title={post.title}
                 date={getDateString(post.date, locale)}
-                language={post.language}
+                language={t(`language.${post.language}`)}
                 locale={locale}
             />
             <section>

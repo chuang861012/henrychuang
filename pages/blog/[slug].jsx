@@ -1,3 +1,5 @@
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import PostDetail from "../../components/posts/PostDetail";
 import HeadMeta from "../../components/seo/HeadMeta";
 import Container from "../../components/ui/Container";
@@ -22,7 +24,7 @@ function PostDetailPage({ post, locale }) {
     );
 }
 
-export function getStaticProps({ params, locale }) {
+export async function getStaticProps({ params, locale }) {
     const { slug } = params;
 
     const postData = getPostData(slug);
@@ -31,6 +33,7 @@ export function getStaticProps({ params, locale }) {
         props: {
             post: postData,
             locale,
+            ...(await serverSideTranslations(locale, ["common"])),
         },
         revalidate: 600,
     };
