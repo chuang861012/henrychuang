@@ -15,7 +15,7 @@
 .markdownImageWrapper {
     width: 60rem;
     height: 30rem;
-    display: "block";
+    display: block;
 }
 
 .blockquote {
