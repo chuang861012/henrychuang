@@ -20,7 +20,7 @@ tags: ["AWS", "MongoDB", "chatbot", "deep learning"]
 ##### Google
 
 -   [Maps api](https://developers.google.com/maps) to get user location
--   [place api](https://developers.google.com/maps/documentation/places/web-service/overview) 配合[Map reviews spider (puppeteer)](https://github.com/chuang861012/puppeteer-google-map-review-scraper)
+-   [place api](https://developers.google.com/maps/documentation/places/web-service/overview) with [Map reviews spider (puppeteer)](https://github.com/chuang861012/puppeteer-google-map-review-scraper)
 -   [Dialogflow](https://dialogflow.cloud.google.com/) setup chatbot response
 
 ##### Frontend
