@@ -57,7 +57,7 @@ function Footer() {
             </div>
             <p style={{ fontWeight: 100 }}>
                 The relevant licenses for third party packages used to build this website can be found{" "}
-                <Link href="/thirdpartylicenses.txt" locale="en-US">
+                <Link href="/thirdpartylicenses.txt" locale="zh-TW">
                     <a
                         target="_blank"
                         rel="noreferrer"
