@@ -160,8 +160,8 @@ function MarkdownRenderer({ data, imageDir, showTitleDivider }) {
                 </span>
             );
         },
-        blockquote({ children }){
-            return <blockquote className={classes.blockquote}>{children}</blockquote>
+        blockquote({ children }) {
+            return <blockquote className={classes.blockquote}>{children}</blockquote>;
         },
         code({ node, inline, className, children, ...props }) {
             const match = /language-(\w+)/.exec(className || "");
@@ -171,6 +171,13 @@ function MarkdownRenderer({ data, imageDir, showTitleDivider }) {
                 </SyntaxHighlighter>
             ) : (
                 <code className={classes.code}>{String(children).replace(/\n$/, "")}</code>
+            );
+        },
+        iframe({ children, ...props }) {
+            return (
+                <iframe className={classes.iframe} {...props}>
+                    {children}
+                </iframe>
             );
         },
     };
